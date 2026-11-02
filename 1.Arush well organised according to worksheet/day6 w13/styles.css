@@ -1,0 +1,17 @@
+body{
+    background-color: yellow;
+}
+h1{
+    color: blue;
+    background-color: green;
+    width: 300px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+p{
+    color: blue;
+    background-color: chocolate;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}

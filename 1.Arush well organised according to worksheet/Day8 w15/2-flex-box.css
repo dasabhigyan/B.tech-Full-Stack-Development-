@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    padding: 24px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;    
+    /*(flex try to adjust in one line) using wrap the sizes of the boxes does not change , flex can't change to auto adjust */
+    /* flex-direction: row; */
+    gap: 40px;
+    /* row-gap: 100px;
+    column-gap: 40px; */
+    justify-content: center;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    background-color: red;
+}

@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    opacity: 0.75;
+}
+div{
+    border: 1px solid red;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.item-1{
+    position: relative;
+    background-color: blue;
+    left: 25px;
+    top: 25px
+}
+/* absolute is wrt firt postion element(where position is applied) in the parent chain */
+.item-2{
+    position: absolute;
+    background-color: aqua;
+    /* left: 253px;
+    top: 25px */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/* in thi cse in parent chain there is no posiyion element so it is wrt body ; it in not fixed wrtview port   */
+.item-3{
+    position: fixed;
+    background-color: red;
+    /* left: 253px;
+    top: 25px */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+ /* it is fixed wrt view port */
