@@ -4,9 +4,9 @@
 // console.log(`This is my firstname ${firstname}.This is the next thing.`)
 
 
-let a = "Keshu"
+let a = "Keshu";
 {
-    let a = "Abhigyan"
-    console.log(a)
+    let a = "Abhigyan";
+    console.log(a);
 }
-console.log(a)
+console.log(a);
