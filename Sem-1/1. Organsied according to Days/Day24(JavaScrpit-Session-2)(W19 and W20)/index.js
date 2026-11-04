@@ -66,7 +66,7 @@ let stud3 = {
 // let stud4 = {
 //     "firstName1":"abc",             
 //     "rollNumber": 21,
-};
+// };
 
 let stud4=stud3;
 console.log(stud3==stud4)   // here the outpu is true because the Object address is same.
